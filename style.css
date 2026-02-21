@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 :root {
   --bg-dark: #0f0f0f;
   --card-dark: #1a1a1a;
@@ -141,7 +141,7 @@ body {
   font-size: 20px;
   color: #f4a261;
   margin-top: 10px;
-=======
+
 :root {
   --bg-dark: #0f0f0f;
   --card-dark: #1a1a1a;
@@ -287,5 +287,27 @@ body {
 }
 section {
   scroll-margin-top: 80px;
->>>>>>> 11c9e73 (Fixed sticky nav ID issue)
+}
+
+.menu-section {
+    background-color: #111;   /* Dark background */
+    color: #fff;              /* Text white */
+    padding: 60px 40px;
+}
+
+.menu-item span {
+    color: #fff;
+}
+
+body {
+    background-color: #111 !important;
+    color: #fff;
+}
+
+.menu-section {
+    background-color: #111 !important;
+}
+
+body {
+    background: black !important;
 }
